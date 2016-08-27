@@ -1,0 +1,79 @@
+//estoy trabajando en clases y funciones
+//el código aun tiene errores, aun tengo que reacomodarlo, se lo muestro para que vea 
+// el proceso que estoy llevando
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace jerarquia
+{
+	class operar
+	{
+		public  void imprime (string[] datos)
+		{
+			Console.SetCursorPosition(10,4);console.Writeline("resultado: =" + datos[1]);// aca fijo la posicion
+			Console.ReadKey();
+			
+		}
+	}
+	
+	class espacio
+	{
+		public void espacios(byte dato1, byte dato2, string[]datos)//buscar espacios
+			string recorre;
+		dato1-=2; // resto y asigno el valor
+		for(espacio2<=espacio1; espacio2++)
+		{
+			if(datos[espacio2]=="")//matriz dato2,  igualo a nada
+				dato2+=2;//suma y asigno el valor
+			recorre=datos[dato2];
+			dato2-=2
+				datos[dato2]=recorre;
+			dato2+=2;
+			datos[dato2]==" ";
+			dato2-=2;
+			class espacio
+	{
+		public void espacios(byte dato1, byte dato2, string[]datos)//buscar espacios
+			string recorre;
+		dato1-=2; // resto y asigno el valor
+		for(espacio2<=espacio1; espacio2++)
+		{
+			if(datos[espacio2]=="")//matriz dato2,  igualo a nada
+				dato2+=2;//suma y asigno el valor
+			recorre=datos[dato2];
+			dato2-=2
+				datos[dato2]=recorre;
+			dato2+=2;
+			datos[dato2]==" ";
+			dato2-=2;
+			public void eliminar(byte, dato1, byte dato2, string[]datos)//funcion que elimina espacios en blanco
+			{
+				byte ultimo=0; string cambio; byte posicion=0;
+				dato1=19;
+				while(dato1>=1)
+				{
+					ultimo=dato1;
+					while (ultimo>=1)
+					{
+						posicion=Convert.ToByte(ultimo-1);
+						if(posicion!=255) //si posicion es diferente de 255
+						{
+							while(((posicion!=255)&&(posicion>=0)&&(datos[posicion]=="")))
+							{
+								cambio=datos[ultimo];//datos igual ultimo registro
+								datos[posicion]=cambio;
+								datos[ultimo]="";
+								posicion--; // la posicion decrementa
+								
+							}
+						}
+						ultimo--;
+						
+					}
+					dato1--;
+						}
+	}
+}
